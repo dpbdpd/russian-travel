@@ -1,0 +1,39 @@
+.intro__list {
+    list-style-type: none;
+    margin: auto;
+    margin-left: 0;
+    max-width: 690px;
+    height: 90px;
+    left: 148px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75em;
+    line-height: 150%;
+    /* or 150% */
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__list {
+        top: 339px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        width: 720px;
+        height: 90px;
+        left: 24px;
+        top: 339px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        width: 288px;
+        height: 90px;
+        left: 16px;
+        top: 664px;
+    }
+}

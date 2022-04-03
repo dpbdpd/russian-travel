@@ -1,0 +1,40 @@
+.intro__title {
+    max-width: 690px;
+    height: 58px;
+    left: 148px;
+    top: 1233px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.35em;
+    line-height: 107%;
+    /* identical to box height, or 107% */
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__title {
+        top: 1182px;
+        left: 48px;
+        right: 286px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__title {
+        left: 24px;
+        top: 1078px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__title {
+        width: 288px;
+        height: 70px;
+        left: 16px;
+        font-size: 32px;
+        line-height: 109%;
+        /* or 109% */
+    }
+}

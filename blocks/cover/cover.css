@@ -1,0 +1,33 @@
+.cover {
+  position: absolute;
+  width: 1184px;
+  height: 740px;
+  left: 48px;
+  top: 6001px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    top: 6121px;
+    left: 0;
+    width: 1024px;
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    top: 6245px;
+    left: 0;
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    top: 9425px;
+    width: 320px;
+    height: 200px;
+  }
+}

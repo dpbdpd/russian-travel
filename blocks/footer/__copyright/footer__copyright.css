@@ -1,0 +1,31 @@
+.footer__copyright {
+  max-width: 186px;
+  height: 16px;
+  margin-left: 535px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.95em;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-align: right;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    margin-left: 270px;
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    margin-left: 65px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    margin: 0;
+  }
+}  

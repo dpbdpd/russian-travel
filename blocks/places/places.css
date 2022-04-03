@@ -1,0 +1,35 @@
+.places {
+    width: calc(100% - (148px*2));
+    position: absolute;
+    width: 984px;
+    height: 3392px;
+    left: 148px;
+    top: 2517px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        width: 928px;
+        height: 3292px;
+        left: 48px;
+        top: 2737px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        width: 720px;
+        height: 2808px;
+        left: 24px;
+        top: 3347px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        width: 320px;
+        height: 5177px;
+        left: 0;
+        top: 4182px;
+    }
+}

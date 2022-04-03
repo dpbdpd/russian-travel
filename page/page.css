@@ -1,0 +1,41 @@
+.page {
+    position: absolute;
+    width: 1280px;
+    height: 6875px;
+    background: #2A2C2F;
+    margin: 0 auto;
+    font-family: 'Inter';
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    
+}
+
+ol, ul { 
+    margin: 0 auto;
+    padding-inline-start: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .page {
+        width: 1024px;
+        height: 6895px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        width: 768px;
+        height: 6855px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        width: 320px;
+        height: 10023px;
+    }
+}
