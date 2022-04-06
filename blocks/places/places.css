@@ -1,5 +1,4 @@
 .places {
-    width: calc(100% - (148px*2));
     position: absolute;
     width: 984px;
     height: 3392px;

@@ -16,6 +16,10 @@
     opacity: 0.8;
 }
 
+.footer__link:last-child {
+    margin-right: 0px;
+}
+
 @media screen and (max-width: 320px) {
     .footer__link {
         width: 74px;

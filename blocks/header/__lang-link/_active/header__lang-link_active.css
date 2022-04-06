@@ -1,0 +1,38 @@
+.header__lang-link_active {
+    position: absolute;
+    max-width: 30px;
+    height: 28px;
+    left: 1107px;
+    top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 117%;
+    /* identical to box height, or 117% */
+    text-align: right;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.header__lang-link_active:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__lang-link_active {
+        left: 851px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang-link_active {
+        left: 643px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link_active {
+        left: 226px;
+    }
+}

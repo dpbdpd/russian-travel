@@ -1,7 +1,8 @@
 .footer__copyright {
-  max-width: 186px;
+  margin: 0 auto;
+  margin-right: 0;
+  width: 186px;
   height: 16px;
-  margin-left: 535px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -12,20 +13,12 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
-  .footer__copyright {
-    margin-left: 270px;
-  }
-}
-  
-@media screen and (max-width: 768px) {
-  .footer__copyright {
-    margin-left: 65px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .footer__copyright {
+    position: absolute;
+    text-align: left;
+    height: 14px;
     margin: 0;
+    top: 296px;
   }
 }  
