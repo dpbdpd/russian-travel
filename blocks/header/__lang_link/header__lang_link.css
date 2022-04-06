@@ -1,8 +1,9 @@
-.header__lang-link_active {
+.header__lang_link {
     position: absolute;
+    text-decoration: none;
     max-width: 30px;
     height: 28px;
-    left: 1107px;
+    left: 1155px;
     top: 18px;
     font-family: 'Inter';
     font-style: normal;
@@ -11,28 +12,27 @@
     line-height: 117%;
     /* identical to box height, or 117% */
     text-align: right;
-    text-decoration-line: underline;
     color: #FFFFFF;
 }
 
-.header__lang-link_active:hover {
+.header__lang_link:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
-    .header__lang-link_active {
-        left: 851px;
+    .header__lang_link {
+        left: 899px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .header__lang-link_active {
-        left: 643px;
+    .header__lang_link {
+        left: 691px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .header__lang-link_active {
-        left: 226px;
+    .header__lang_link {
+        left: 266px;
     }
 }
