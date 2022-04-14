@@ -6,3 +6,9 @@
   letter-spacing: 2px;
   color: #AAAAAA;
 }
+
+@media (min-width: 425px) and (max-width: 1024px) {
+  .place__website-heading {
+    margin: 0;
+  }
+}

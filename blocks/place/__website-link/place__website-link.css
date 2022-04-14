@@ -1,7 +1,10 @@
 .place__website-link {
-  margin: 12px 0 0;
+  width: 100%;
+  max-width: 456px;
+  height: 22px;
+  margin: 12px 0 0 0;
   font-weight: 400;
-  font-size: 1.12em;
+  font-size: 1.125rem;
   line-height: 1.22;
   text-decoration-line: underline;
   color: #FFFFFF;
@@ -9,4 +12,24 @@
 
 .place__website-link:hover {
   opacity: 0.8;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .place__website-link {
+   font-size: calc(18px + 0 * (100vw/1024));
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .place__website-link {
+    max-width: 352px;
+    font-size: calc(18px + 0 * (100vw/768));
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__website-link {
+    max-width: 288px;
+    font-size: calc(18px + 0 * (100vw/425));
+  }
 }

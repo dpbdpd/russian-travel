@@ -1,4 +1,18 @@
 .places__list {
-  margin: 0 auto;
+  margin: 0 0 80px 0;
   padding: 0;
+}
+
+.places__list:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .places__list {
+    margin: 0 0 50px 0;
+  }
+
+  .places__list:last-of-type {
+    margin: 0;
+  }
 }

@@ -1,40 +1,26 @@
 .lead__caption {
-    position: absolute;
-    margin: 0 auto;
-    width: 158px;
+    width: 100%;
+    max-width: 158px;
     height: 14px;
-    right: 826px;
-    top: 991px;
+    margin: 8px 0 0 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.65em;
+    font-size: 0.625rem;
     line-height: 140%;
-    /* identical to box height, or 140% */
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 425px) and (max-width: 768px) {
     .lead__caption {
-        right: 770px;
-        top: 948px;
+        margin: 8px 0 0 24px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
     .lead__caption {
-        left: 24px;
-        right: 586px;
-        top: 848px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead__caption {
-        left: 18px;
-        right: 144px;
-        top: 392px;
+        margin: 0 0 0 18px;
     }
 }

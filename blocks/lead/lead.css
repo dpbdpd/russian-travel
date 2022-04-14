@@ -1,33 +1,29 @@
 .lead {
-    display: flex;
-    position: relative;
+    width: 100%;
     max-width: 984px;
     height: 1005px;
-    left: 148px;
-    top: 136px;
+    margin: 56px auto 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .lead {
-        width: 928px;
+        max-width: 928px;
         height: 962px;
-        left: 48px;
-        top: 128px;
+        margin: 48px auto 0 auto;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
     .lead {
-        width: 768px;
+        max-width: 768px;
         height: 862px;
-        left: 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .lead {
-        width: 320px;
+        max-width: 320px;
         height: 406px;
-        top: 106px;
+        margin: 48px 0 0 0;
     }
 }

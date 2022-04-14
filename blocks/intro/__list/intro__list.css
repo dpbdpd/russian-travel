@@ -1,36 +1,33 @@
 .intro__list {
-    list-style-type: none;
+    width: 100%;
     max-width: 690px;
     height: 90px;
     margin: 0;
     padding: 0;
+    list-style-type: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 0.75em;
+    font-size: 0.75rem;
     line-height: 150%;
-    /* or 150% */
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .intro__list {
-        top: 339px;
+        max-width: 720px;
+        font-size: calc(12px + 0 * (100vw/1024));
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 768px) {
     .intro__list {
-        width: 720px;
-        height: 90px;
-        left: 24px;
+        font-size: calc(12px + 0 * (100vw/768));
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .intro__list {
-        width: 288px;
-        left: 16px;
-        top: 664px;
+        font-size: calc(12px + 0 * (100vw/425));
     }
 }

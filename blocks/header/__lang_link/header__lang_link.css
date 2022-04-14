@@ -1,10 +1,5 @@
 .header__lang_link {
-    position: absolute;
     text-decoration: none;
-    max-width: 30px;
-    height: 28px;
-    left: 1155px;
-    top: 18px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -33,6 +28,10 @@
 
 @media screen and (max-width: 320px) {
     .header__lang_link {
+        top: 14px;
         left: 266px;
+        width: 20px;
+        height: 22px;
+        font-size: 1.12em;
     }
 }
