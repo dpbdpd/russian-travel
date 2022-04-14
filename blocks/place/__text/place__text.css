@@ -23,7 +23,6 @@
   .place__text {
     max-width: 352px;
     font-size: calc(16px + 2 * (10vw/768));
-    margin: 0;
   }
 }
 

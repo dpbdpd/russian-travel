@@ -1,37 +1,22 @@
 .header__lang_link {
-    text-decoration: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     line-height: 117%;
-    /* identical to box height, or 117% */
     text-align: right;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .header__lang_link:hover {
     opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 425px) {
     .header__lang_link {
-        left: 899px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header__lang_link {
-        left: 691px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .header__lang_link {
-        top: 14px;
-        left: 266px;
         width: 20px;
         height: 22px;
-        font-size: 1.12em;
+        font-size: 1.125rem;
     }
 }

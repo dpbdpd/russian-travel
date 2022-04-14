@@ -10,6 +10,12 @@
   margin-bottom: 0;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+  }
+}
+
 @media (min-width: 425px) and (max-width: 768px) {
   .place {
     max-width: 720px;

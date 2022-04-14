@@ -40,7 +40,8 @@
 @media (min-width: 425px) and (max-width: 768px) {
   .cover__container {
     max-width: 768px;
-    height: 480px;
+    max-height: 480px;
+    margin: 0;
   }
 }
 

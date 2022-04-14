@@ -1,11 +1,10 @@
 .header__lang_link_active {
-    margin-right: 18px;
+    margin: 0 18px 0 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     line-height: 117%;
-    /* identical to box height, or 117% */
     color: #FFFFFF;
 }
 
@@ -13,24 +12,10 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 425px) {
     .header__lang_link_active {
-        left: 851px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header__lang_link_active {
-        left: 643px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .header__lang_link_active {
-        top: 14px;
-        left: 226px;
         width: 20px;
         height: 22px;
-        font-size: 1.12em;
+        font-size: 1.125rem;
     }
 }
