@@ -20,6 +20,12 @@
     margin-right: 0px;
 }
 
+@media (min-width: 425px) and (max-width: 768px) {
+    .footer__link {
+        font-size: calc(16px + 8 * (10vw/768));
+    }
+}
+
 @media screen and (max-width: 425px) {
     .footer__link {
         display: flex;

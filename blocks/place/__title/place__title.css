@@ -12,16 +12,15 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .place__title {
-    max-width: 440px;
-    font-size: calc(32px + 40 * (100vw/1024));
+    width: 35vw;
+    font-size: calc(32px + 40 * (60vw/1024));
   }
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
   .place__title {
-    max-width: 340px;
-    height: 100%;
-    font-size: calc(32px + 40 * (30vw/768));
+    width: 138px;
+    font-size: calc(32px + 40 * (40vw/768));
     line-height: 110%;
   }
 }

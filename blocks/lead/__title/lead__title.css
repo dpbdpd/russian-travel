@@ -20,7 +20,7 @@
 
 @media (min-width: 425px) and (max-width: 768px) {
     .lead__title {
-        font-size: calc(40px + 56 * (100vw/768));
+        font-size: calc(40px + 56 * (70vw/768));
         line-height: 107%;
     }
 }

@@ -1,12 +1,11 @@
 .header__lang_link {
+    margin: 0 18px 0 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 117%;
-    text-align: right;
     color: #FFFFFF;
-    text-decoration: none;
 }
 
 .header__lang_link:hover {
